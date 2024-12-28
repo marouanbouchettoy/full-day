@@ -42,30 +42,6 @@
         "documentation": {}
     },
     {
-        "label": "randint",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "choice",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "random",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -79,58 +55,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "start_date",
-        "kind": 5,
-        "importPath": "Checking.app",
-        "description": "Checking.app",
-        "peekOfCode": "start_date = datetime(2023, 3, 31)\nend_date = datetime(2024, 12, 30)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",",
-        "detail": "Checking.app",
-        "documentation": {}
-    },
-    {
-        "label": "end_date",
-        "kind": 5,
-        "importPath": "Checking.app",
-        "description": "Checking.app",
-        "peekOfCode": "end_date = datetime(2024, 12, 30)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",",
-        "detail": "Checking.app",
-        "documentation": {}
-    },
-    {
-        "label": "commit_messages",
-        "kind": 5,
-        "importPath": "Checking.app",
-        "description": "Checking.app",
-        "peekOfCode": "commit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",\n    \"Enhanced UI components.\",\n    \"Corrected typos in code.\",",
-        "detail": "Checking.app",
-        "documentation": {}
-    },
-    {
-        "label": "current_date",
-        "kind": 5,
-        "importPath": "Checking.app",
-        "description": "Checking.app",
-        "peekOfCode": "current_date = start_date\nwhile current_date <= end_date:\n    date_str = current_date.strftime('%Y-%m-%d')\n    # Définir la probabilité d'avoir des commits un jour donné\n    if random() < 0.8:  # 80 % de probabilité d'avoir des commits ce jour-là\n        # Générer un nombre aléatoire de commits pour la journée\n        num_commits = randint(1, 10)  # Nombre de commits plus variable\n        for _ in range(num_commits):\n            # Générer une heure, minute et seconde aléatoires\n            random_hour = randint(0, 23)",
-        "detail": "Checking.app",
         "documentation": {}
     },
     {
@@ -138,7 +62,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "start_date = datetime(2023, 3, 31)\nend_date = datetime(2024, 12, 30)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",",
+        "peekOfCode": "start_date = datetime(2024, 12, 28)\nend_date = datetime(2025, 5, 9)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",",
         "detail": "app",
         "documentation": {}
     },
@@ -147,7 +71,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "end_date = datetime(2024, 12, 30)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",",
+        "peekOfCode": "end_date = datetime(2025, 5, 9)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",",
         "detail": "app",
         "documentation": {}
     },
