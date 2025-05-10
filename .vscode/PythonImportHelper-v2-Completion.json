@@ -62,7 +62,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "start_date = datetime(2024, 12, 28)\nend_date = datetime(2025, 5, 9)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",",
+        "peekOfCode": "start_date = datetime(2025, 5, 9)\nend_date = datetime(2025, 6, 28)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",",
         "detail": "app",
         "documentation": {}
     },
@@ -71,7 +71,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "end_date = datetime(2025, 5, 9)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",",
+        "peekOfCode": "end_date = datetime(2025, 6, 28)\n# Liste de messages de commit aléatoires\ncommit_messages = [\n    \"Improved performance.\",\n    \"Fixed a bug in the system.\",\n    \"Added a new feature.\",\n    \"Refactored some code.\",\n    \"Updated documentation.\",\n    \"Optimized database queries.\",\n    \"Removed deprecated functions.\",",
         "detail": "app",
         "documentation": {}
     },
