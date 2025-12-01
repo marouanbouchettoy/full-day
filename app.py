@@ -18,7 +18,7 @@ from random import randint, choice, random
 from datetime import datetime, timedelta
 
 # Define the start and end dates for generating commits
-START_DATE = datetime(2025, 6, 10)
+START_DATE = datetime(2025, 12, 1)
 END_DATE = datetime(2025, 12, 3)
 
 # List of random commit messages to use
